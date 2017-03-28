@@ -21,5 +21,6 @@ $cbp-theme: map-merge($cbp-pre-theme, (
     )),
     foreground: map-merge($cbp-pre-foreground, (
         enabled-hint-text: rgba(0, 0, 0, 0.87),
+        modified: rgba(0, 0, 0, 0.87),
     )),
 ));
