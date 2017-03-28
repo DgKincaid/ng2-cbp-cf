@@ -2,6 +2,7 @@
 @import '../src/badge/_badge.scss';
 @import '../src/badge/_badge-theme.scss';
 @import '../src/dropdown-tree-field/_dropdown-tree-field-theme.scss';
+@import '../src/header/_header-theme.scss';
 @import './_typography.scss';
 @import './_header-base.scss';
 @import './_theme.scss';
@@ -14,8 +15,9 @@
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 @include angular-material-theme($cbp-theme);
-@include cf-dropdown-tree-theme($cbp-theme);
 @include cf-badge-theme($cbp-theme);
+@include cf-dropdown-tree-theme($cbp-theme);
+@include cf-header-theme($cbp-theme);
 
 // Customize the theme
 $foreground: map-get($cbp-theme, foreground);
